@@ -184,12 +184,12 @@ section .title-1{
         padding: 15px 0;
     }
     nav .logo{
+        font-size: 18px;
         margin-left: 8px;
     }
     .nav .max-width .checkbtn{
         display: block;
     }
-
     .nav .max-width .menu{
         height: 100vh;
         width: 32%;
