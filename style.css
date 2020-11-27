@@ -233,7 +233,7 @@ section .title-1{
     }
     .home{
         background: url('images/header-img.svg') no-repeat right bottom;
-        background-size: 50% 50%;
+        background-size: 90% 90%;
     }        
 }
 
