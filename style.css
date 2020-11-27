@@ -225,6 +225,7 @@ section .title-1{
     }
     .home .home-content h1{
         margin: 3px 0;
+        font-size: 40px;
     }
     
 }
