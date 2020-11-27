@@ -97,6 +97,7 @@ section .title-1{
     color: black;
     cursor: pointer;
     display: none;
+    margin-right: 8px;   
 }
 
 #check{
@@ -175,6 +176,16 @@ section .title-1{
 }
 
 @media (max-width:668px){
+    .max-width{
+        padding: 0 8px;
+        margin: auto;
+    }
+    .nav{
+        padding: 15px 0;
+    }
+    nav .logo{
+        margin-left: 8px;
+    }
     .nav .max-width .checkbtn{
         display: block;
     }
@@ -202,9 +213,20 @@ section .title-1{
         right: 0;
     }
     .home .max-width{
-        margin:150px 0; 
+        margin:120px 8px; 
     }
-
+    .home .home-content h3{
+        font-size: 23px;
+    }
+    
+    .home .home-content h2{
+        font-size:30px;
+        margin-top: 2px;
+    }
+    .home .home-content h1{
+        margin: 3px 0;
+    }
+    
 }
 
 @media (max-width:10087px){
