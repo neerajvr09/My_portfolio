@@ -130,6 +130,10 @@ section .title-1{
     font-weight: 600;
 }
 
+.home .max-width img{
+    display: none;
+}
+
 /* styling about section */
 .about .about-content .left{
     width: 45%;
@@ -227,7 +231,11 @@ section .title-1{
         margin: 3px 0;
         font-size: 40px;
     }
-    
+    .home .max-width img{
+            padding: 10px 0;
+            width: 400px;
+            height: 450px;
+    }
 }
 
 @media (max-width:10087px){
