@@ -231,11 +231,10 @@ section .title-1{
         margin: 3px 0;
         font-size: 40px;
     }
-    .home .max-width img{
-            padding: 10px 0;
-            width: 400px;
-            height: 450px;
-    }
+    .home{
+        background: url('images/header-img.svg') no-repeat right bottom;
+        background-size: 50% 50%;
+    }        
 }
 
 @media (max-width:10087px){
