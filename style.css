@@ -281,6 +281,10 @@ section .title-1{
         width: 200px;
         height: 200px;
     }
+    .about .about-content .right{
+        padding: 0 8px;
+        width: auto;
+    }
 }
 
 
