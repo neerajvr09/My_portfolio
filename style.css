@@ -35,6 +35,7 @@ section .title{
 section .title-1{
     font-size: 40px;
     font-weight: 500;
+    text-decoration: underline black;
 } 
 
 .about .about-content{
