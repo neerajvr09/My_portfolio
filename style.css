@@ -264,6 +264,9 @@ section .title-1{
     section{
         padding: 60px 0;
     }
+    section .title-1{
+        font-size: 35px;
+    }
 }
 
 
