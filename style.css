@@ -93,7 +93,7 @@ section .title-1{
 }
 
 .nav .max-width .checkbtn{
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     cursor: pointer;
     display: none;
@@ -172,7 +172,7 @@ section .title-1{
         margin: auto;
     }
     .nav{
-        padding: 15px 0;
+        padding: 12px 0;
     }
     .nav .logo a{
         font-size: 20px;
