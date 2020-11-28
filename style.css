@@ -262,7 +262,7 @@ section .title-1{
         background-size: 90% 90%;
     }        
     section{
-        padding: 60px 0;
+        padding: 65px 0;
     }
     section .title-1{
         font-size: 30px;
@@ -270,6 +270,10 @@ section .title-1{
     .about .about-content .left img{
         width: 200px;
         height: 200px;
+    }
+    .about .about-content{
+        display: block;
+        margin: auto;
     }
 }
 
