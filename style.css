@@ -268,12 +268,19 @@ section .title-1{
         font-size: 30px;
     }
     .about .about-content .left img{
+        display: block;
         width: 200px;
         height: 200px;
     }
     .about .about-content{
         display: block;
         margin: auto;
+    }
+    .about .about-content .left{
+        width: 100%;
+    }
+    .about .about-content .right{
+        width: 100%;
     }
 }
 
