@@ -139,7 +139,6 @@ section .title-1{
     width: 350px;
     height: 350px;
     object-fit: cover;
-    /* border-radius: 50%; */
 }
 
 .about .about-content .right{
@@ -267,6 +266,11 @@ section .title-1{
     }
     section .title-1{
         font-size: 30px;
+    }
+    .about .about-content .left img{
+        width: 200px;
+        height: 200px;
+        object-fit: none;
     }
 }
 
