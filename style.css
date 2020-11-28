@@ -285,6 +285,9 @@ section .title-1{
         padding: 0 8px;
         width: auto;
     }
+    .about-content .right .text{
+        display: none;
+    }
     section .title{
         margin-bottom: 10px;
         padding-bottom: 5px;
