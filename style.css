@@ -212,7 +212,7 @@ section .title-1{
 
 @media (max-width:668px){
     .max-width{
-        padding: 0 0px;
+        padding: 0 8px;
         margin: auto;
     }
     .nav{
