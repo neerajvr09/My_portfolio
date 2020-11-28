@@ -274,6 +274,9 @@ section .title-1{
         align-items: center;
         justify-content:center
     }
+    .about .about-content .left{
+        width: auto;
+    }
     .about .about-content .left img{
         width: 200px;
         height: 200px;
