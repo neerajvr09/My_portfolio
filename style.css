@@ -259,6 +259,7 @@ section .title-1{
         font-size: 40px;
     }
     .home{
+        height: 100vh;
         background-size: 90% 90%;
     }        
     section{
