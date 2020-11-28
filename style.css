@@ -210,6 +210,7 @@ section .title-1{
     }
 }
 
+/* mobile view */
 @media (max-width:668px){
     .max-width{
         padding: 0 8px;
@@ -228,7 +229,7 @@ section .title-1{
     .nav .max-width .menu{
         height: 100vh;
         width: 35%;
-        top: 55px;
+        top: 52px;
         right: -100%;
         background: #638ab1;
         display: block;
@@ -265,6 +266,9 @@ section .title-1{
     .home{
         background-size: 90% 90%;
     }        
+    section{
+        padding: 80px 0;
+    }
 }
 
 
