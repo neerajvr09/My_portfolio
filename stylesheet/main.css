@@ -12,7 +12,7 @@ html{
 }
 
 .max-width{
-    padding: 0 120px;
+    padding: 0 90px;
     margin: auto;
 }
 
@@ -110,7 +110,7 @@ section{
 }
 
 .home .max-width{
-    margin:auto 0; 
+    margin: auto 0; 
 }
 
 .home .home-content{
