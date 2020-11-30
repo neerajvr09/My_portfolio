@@ -222,15 +222,7 @@ section{
 .projects .max-width{
     padding: 0;
 }
-/* .projects-content{
-    display: flex;
-    background: #ffffff;
-    width: 70%;
-    padding: 50px 30px;
-    border-radius: 12px;
-    box-shadow: 0px 20px 80px 0px rgba(112, 27, 27, 0.3);
-    flex-direction: row;
-} */
+
 .projects-content{
     display: flex;
     justify-content: space-between;
@@ -395,7 +387,7 @@ section{
     section .title-1{
         font-size: 30px;
     }
-    .about .about-content{
+    .about .about-content, .projects-content{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -428,6 +420,9 @@ section{
     }
     .bars{
         margin: 0px 50px;
+    }
+    .projectBtn{
+        display: none;
     }
 }
 
