@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -12,33 +12,33 @@ html{
 }
 
 .max-width{
-    padding: 0 80px;
+    padding: 0 120px;
     margin: auto;
 }
 
 section{
-    padding: 100px 0;
-    background-color:#F3F4F6;
+    height: 100vh;
+    padding: 100px 100px;
 }
 
-.about{
+.about, .skills{
     font-family: 'Poppins', sans-serif;
 }
 
-section .title{
+.title{
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
 
-section .title-1{
-    font-size: 40px;
+.title-1{
+    font-size: 37px;
     font-weight: 500;
-    text-decoration: underline black;
+    /* text-decoration: underline black; */
 } 
 
-.about .about-content{
+.about .about-content, .skills .skills-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -49,7 +49,7 @@ section .title-1{
     width : 100%;
     padding : 15px 0 ;
     position: fixed;
-    background: #E5E7EB;
+    background: #eeeff1;
     font-family: 'Ubuntu' , sans-serif;
 }
 
@@ -131,13 +131,16 @@ section .title-1{
 }
 
 /* styling about section */
+.about{
+    background-color:#F3F4F6;
+}
 .about .about-content .left{
     width: 45%;
 }
 
 .about .about-content .left img{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
 }
 
@@ -146,7 +149,7 @@ section .title-1{
 }
 
 .about .about-content .right .text{
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -159,6 +162,68 @@ section .title-1{
     font-size: 20px;
     text-align: justify;
 }
+
+/* styling skills section */
+.skills .skills-content .left p{
+    font-size: 20px;
+    text-align: justify;
+}
+.column{
+    width: calc(50% - 30px);
+}
+
+.bars{
+    margin: 5px 70px;
+}
+
+.skill-perc{
+    color: #777777;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.progressbar{
+    border-radius: 10px;
+    border: 1px solid #777777;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.progress{
+    height: 10px;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.one{
+    width: 80%;
+}
+
+.two{
+    width: 60%;
+}
+
+.three{
+    width: 50%;
+}
+
+.four{
+    width: 40%;
+}
+
+/* styling projects part */
+.projects{
+    background-color:#F3F4F6;
+}
+
+.projects-content{
+    display: flex;
+    background: #ffffff;
+    width: 70%;
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 20px 80px 0px rgba(112, 27, 27, 0.3);
+    flex-direction: column;
 
 /* media queries */
 
