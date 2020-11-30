@@ -173,20 +173,24 @@ section{
 }
 
 .bars{
-    margin: 5px 70px;
+    margin: 0px 55px;
 }
 
-.skill-perc{
-    color: #777777;
-    font-size: 14px;
+.bars i{
+    color: #4F46E5;
+    font-size: 20px;
     margin: 10px;
+}
+
+.bars .txt{
+    margin-bottom: 0px;
 }
 
 .progressbar{
     border-radius: 10px;
     border: 1px solid #777777;
     padding: 3px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .progress{
@@ -224,7 +228,7 @@ section{
     border-radius: 12px;
     box-shadow: 0px 20px 80px 0px rgba(112, 27, 27, 0.3);
     flex-direction: column;
-
+}
 /* media queries */
 
 @media (max-width: 749px){
@@ -245,6 +249,9 @@ section{
     .about .max-width{
         padding: 0 60px;
         margin: auto;
+    }
+    .bars{
+        margin: 0 45px;
     }  
 }
  
@@ -356,6 +363,16 @@ section{
     section .title{
         margin-bottom: 10px;
         padding-bottom: 5px;
+    }
+    .skills-content .left{
+        display: none;
+    }
+    .skills-content .right{
+        width: 100%;
+        padding: 80px 0;
+    }
+    .bars{
+        margin: 0px 50px;
     }
 }
 
