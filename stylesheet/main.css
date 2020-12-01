@@ -21,7 +21,7 @@ section{
     padding: 100px 100px;
 }
 
-.about, .skills{
+.about, .skills, .projects{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +38,7 @@ section{
     /* text-decoration: underline black; */
 } 
 
-.about .about-content, .skills .skills-content{
+.about .about-content, .skills .skills-content, .project .projects-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -244,7 +244,7 @@ section{
     width: 320px;
     height: 320px;
     border-radius: 30px;
-    /* opacity: 0.8; */
+    opacity: 0.8;
     padding: 0 5px;
 }
 .project .text{
@@ -268,7 +268,9 @@ section{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-
+.intro{
+    display: none;
+}
 .browseBtn a{
     color: white;
     font-size: 20px;
@@ -279,7 +281,7 @@ section{
 }
 /* media queries */
 
-@media (max-width: 749px){
+/* @media (max-width: 749px){
     .max-width{
         padding: 0 60px;
         margin: auto;
@@ -323,7 +325,7 @@ section{
         width: 280px;
         height: 280px;
     }
-}
+} */
 
 /* mobile view */
 @media (max-width:668px){
@@ -331,6 +333,7 @@ section{
         padding: 0 8px;
         margin: auto;
     }
+    /* nav bar */
     .nav{
         padding: 12px 0;
     }
@@ -364,6 +367,7 @@ section{
     #check:checked ~ .menu{
         right: 0;
     }
+    /* home part */
     .home .max-width{
         margin:120px 8px; 
     }
@@ -382,14 +386,20 @@ section{
     .home{
         height: 100vh;
         background-size: 90% 90%;
-    }        
+    } 
+    /* whole section */
     section{
         padding: 65px 0;
+    }
+    section .title{
+        margin-bottom: 10px;
+        padding-bottom: 5px;
     }
     section .title-1{
         font-size: 30px;
     }
-    .about .about-content, .projects-content{
+    /* about section */
+    .about .about-content{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -409,10 +419,8 @@ section{
     .about-content .right .text{
         display: none;
     }
-    section .title{
-        margin-bottom: 10px;
-        padding-bottom: 5px;
-    }
+    
+    /* skills section */
     .skills-content .left{
         display: none;
     }
@@ -423,16 +431,23 @@ section{
     .bars{
         margin: 0px 50px;
     }
-    .projectBtn{
+    /* project section */
+    .project{
         display: none;
     }
+    .projectBtn{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 450px;
+    }
+    .intro{
+        display: block;
+        font-size: 20px;
+        width: 100%;
+        padding: 0 100px;
+    }
+
 }
-
-
-
-
-
-
 
 
 
