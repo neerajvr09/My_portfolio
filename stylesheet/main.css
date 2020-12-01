@@ -438,13 +438,13 @@ section{
     .projectBtn{
         width: 100%;
         padding-top: 50px;
-        padding-left: 450px;
+        padding-left: 300px;
     }
     .intro{
         display: block;
         font-size: 20px;
         width: 100%;
-        padding: 0 100px;
+        padding: 0 10px;
     }
 
 }
