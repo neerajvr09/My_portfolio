@@ -51,6 +51,7 @@ section{
     position: fixed;
     background: #eeeff1;
     font-family: 'Ubuntu' , sans-serif;
+    z-index: 1;
 }
 
 .nav .max-width{
@@ -243,7 +244,7 @@ section{
     width: 320px;
     height: 320px;
     border-radius: 30px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     padding: 0 5px;
 }
 .project .text{
@@ -426,6 +427,28 @@ section{
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
