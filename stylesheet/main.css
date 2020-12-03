@@ -262,16 +262,16 @@ section{
 .project .text-3{
     left:16%;
 }
-.projectBtn{
+.intro{
+    display: none;
+}
+/* button styling for project and blogs  */
+.button{
     margin-bottom: 30px;
     padding-left: 920px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.intro{
-    display: none;
-}
-/* button styling for project and blogs  */
 .browseBtn a{
     color: white;
     font-size: 20px;
@@ -282,9 +282,6 @@ section{
 }
 
 /* styling blogs section */
-.blogs{
-    display: flex;
-}
 .blogs-content .left {
     width: 45%;
 }
@@ -439,16 +436,24 @@ section{
     .project{
         display: none;
     }
-    .projectBtn{
+    .button{
         width: 100%;
         padding-top: 50px;
-        padding-left: 220px;
+        padding-left: 210px;
     }
     .intro{
         display: block;
         font-size: 20px;
         width: 100%;
-        padding: 10px 12px 0;
+        padding: 12px;
+    }
+    /* blog section */
+    .blogs-content .left{
+        display: none;
+    }    
+    .blogs-content .right{
+        padding: 12px;
+        width: 100%;
     }
 }
 
