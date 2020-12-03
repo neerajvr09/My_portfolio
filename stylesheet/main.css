@@ -21,7 +21,7 @@ section{
     padding: 100px 100px;
 }
 
-.about, .skills, .projects{
+.about, .skills, .projects, .blogs{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,7 +38,7 @@ section{
     /* text-decoration: underline black; */
 } 
 
-.about .about-content, .skills .skills-content, .project .projects-content{
+.about .about-content, .skills .skills-content, .project .projects-content, .blogs .blogs-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -271,6 +271,7 @@ section{
 .intro{
     display: none;
 }
+/* button styling for project and blogs  */
 .browseBtn a{
     color: white;
     font-size: 20px;
@@ -279,54 +280,56 @@ section{
     color: white;
     border-radius: 10px;
 }
-/* media queries */
 
-/* @media (max-width: 749px){
-    .max-width{
-        padding: 0 60px;
-        margin: auto;
-    }
+/* styling blogs section */
+.blogs{
+    display: flex;
+}
+.blogs-content .left {
+    width: 45%;
+}
+.blogs-content .left img{
+    width: 320px;
+    height: 320px;
+}
+.blogs-content .right{
+    width: 55%;
+}
+.blogs-content .right p{
+    font-size: 20px;
+    text-align: justify;
+}
+.blogBtn{
+    margin-bottom: 30px;
+    padding-left: 352px;
+    padding-top: 60px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-@media (max-width: 711px){
-    .max-width{
-        padding: 0 40px;
-        margin: auto;
-    }
+/* styling footer part */
+.footer{
+    background-color: #0b092c;
+}
+.footer .container{
+    color: white;
+    font-family: 'Ubuntu' , sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.footer .connect{
+    font-size: 22px;
+}
+.footer a i{
+    padding: 13px 20px;
+}
+.footer .mail{
+    padding: 10px;
+}
+.footer .copyryt{
+    font-size: 12px;
 }
 
-@media (max-width:10087px){
-    .about .max-width{
-        padding: 0 60px;
-        margin: auto;
-    }
-    .bars{
-        margin: 0 45px;
-    }  
-}
- 
- @media (max-width:936px){
-    .about .max-width{
-        padding: 0 40px;
-        margin: auto;
-    }
-    .about .about-content .left img{
-        width: 300px;
-        height: 300px;
-    }
-} 
-
-@media (max-width:824px){
-    .about .max-width{
-        padding: 0 30px;
-        margin: auto;
-    }
-    .about .about-content .left img{
-        width: 280px;
-        height: 280px;
-    }
-} */
-
+/* media query */
 /* mobile view */
 @media (max-width:668px){
     .max-width{
@@ -446,7 +449,6 @@ section{
         width: 100%;
         padding: 10px 12px 0;
     }
-
 }
 
 
