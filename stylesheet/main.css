@@ -320,6 +320,7 @@ section{
     font-size: 22px;
 }
 .footer a i{
+    color: white;
     padding: 13px 20px;
 }
 .footer .mail{
