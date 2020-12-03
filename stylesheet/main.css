@@ -455,6 +455,9 @@ section{
         padding: 12px;
         width: 100%;
     }
+    .blogBtn{
+        padding-left: 200px;
+    }
 }
 
 
