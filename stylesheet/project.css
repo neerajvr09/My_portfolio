@@ -111,6 +111,32 @@ section{
     float: right;
     padding-right: 800px;
 }
+
+/* styling footer part */
+.footer{
+    background-color: #0b092c;
+}
+.footer .container{
+    color: white;
+    font-family: 'Ubuntu' , sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.footer .connect{
+    font-size: 22px;
+}
+.footer a i{
+    color: white;
+    padding: 13px 20px;
+}
+.footer .mail{
+    padding: 10px;
+}
+.footer .copyryt{
+    font-size: 12px;
+}
+
+
 /* media query */
 /* mobile view */
 @media (max-width:668px){
@@ -151,6 +177,12 @@ section{
     }
     #check:checked ~ .menu{
         right: 0;
+    }
+    section{
+        padding: 100px 20px;
+    }
+    .source{
+        padding-right: 10px;
     }
 }
 
