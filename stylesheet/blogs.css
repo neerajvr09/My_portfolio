@@ -76,6 +76,9 @@ html{
 section{
     padding: 100px 180px;
 }
+.blogs ol{
+    list-style-type: none;
+}
 .blogs ol li{
     padding:20px;
 }
